@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: lightgrey;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.social_buttons button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_buttons button{
+    padding: 8px 14px;
+    margin: 5px;
+    background-color: #993399;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: .75em;
+}
+
+.social_buttons a{
+    text-decoration: none;
+    color: white;
+}
+
+.social_extras{
+    padding-top: 30px;
+}
