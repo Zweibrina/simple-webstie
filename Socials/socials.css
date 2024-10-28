@@ -23,6 +23,13 @@ body{
     align-items: center;
 }
 
+.social_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .social_buttons button{
     padding: 8px 14px;
     margin: 5px;
@@ -36,7 +43,11 @@ body{
 
 .social_buttons a{
     text-decoration: none;
-    color: white;
+    color: Blue;
+}
+
+.social_buttons p{
+    font-size: 20px;
 }
 
 .social_extras{
